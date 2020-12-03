@@ -2,7 +2,7 @@ def add(*arg):
     if(len(arg)>10):
        print("this is another easter")
        return "Error: >10 Values"
-
+#hello
 '''    
     if(len(arg) > 10):
         print("Error >10 values given!")
