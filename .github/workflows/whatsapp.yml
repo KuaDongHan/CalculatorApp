@@ -7,9 +7,9 @@ jobs:
       - name: whatsapp-notify
         id: whatsapp-notify
         env:
-          account_sid: ${{ACb18f11d8cc6f2b56e5db43ad2bbda8e4}}
-          auth_token: ${{b33898ad570da4fc548c78460c797e88}}
-          to_whatsapp_no: ${{+6581301116}}
+          account_sid: ${{"ACb18f11d8cc6f2b56e5db43ad2bbda8e4"}}
+          auth_token: ${{"b33898ad570da4fc548c78460c797e88"}}
+          to_whatsapp_no: ${{"+6581301116"}}
 
 
         uses: ishween/whatsapp-push-notify-action@master
