@@ -29,7 +29,7 @@ jobs:
           subject: Release notification
           body: ${{github.repository}} has a new release
           to: dhkua60@gmail.com, quekdylan7@gmail.com
-          from: mamaya.john@gmail.com
+          from: RatVenture notifications
           # Optional carbon copy recipients
           cc: quekdylan8@gmail.com
           # Optional content type (defaults to text/plain):
