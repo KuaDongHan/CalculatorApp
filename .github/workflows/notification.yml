@@ -24,8 +24,8 @@ jobs:
         with:
           server_address: smtp.gmail.com
           server_port: 465
-          username: ${{secrets.MAIL_USERNAME}}
-          password: ${{secrets.MAIL_PASSWORD}}
+          username: mamaya.john@gmail.com
+          password: M4m4y4P@55w0rd
           subject: Github Actions job result
           body: ${{github.repository}} pushed to main
           to: dhkua60@gmail.com, quekdylan7@gmail.com
