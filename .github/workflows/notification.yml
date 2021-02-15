@@ -24,10 +24,10 @@ jobs:
         with:
           server_address: smtp.gmail.com
           server_port: 465
-          username: mamaya.john@gmail.com
-          password: M4m4y4P@55w0rd
-          subject: Github Actions job result
-          body: ${{github.repository}} pushed to main
+          username: ${{ secrets.MAIL_USERNAME}}
+          password: ${{ secrets.MAIL_PASSWORD}}
+          subject: Release notification
+          body: ${{github.repository}} has a new release
           to: dhkua60@gmail.com, quekdylan7@gmail.com
           from: mamaya.john@gmail.com
           # Optional carbon copy recipients
