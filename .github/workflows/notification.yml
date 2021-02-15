@@ -44,4 +44,4 @@ jobs:
           auth_token: ${{ secrets.auth_token }}
           to_whatsapp_no: ${{ secrets.to_whatsapp_no }}
 
-        uses: ishween/whatsapp-push-notify-action@0ebd035b3d88b770a573a6d87f54860043ac0165
+        uses: ishween/whatsapp-push-notify-action@master
